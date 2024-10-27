@@ -5,7 +5,7 @@ Ce projet est un template expo avec react-native-ui-lib.
 React-native-ui-lib est une librairie qui fourni des composants prêt à l'emploi.
 Cette librairie permet de modifier le themes et le style des composant globalement (dossier themes).
 
-Elle permet aussi de modifier ponctuelement sur chaque composants et vous donne accèes a des props de personalisation (modifier) 
+Elle permet aussi de modifier ponctuelement sur chaque composants et vous donne accès a des props de personalisation (modifier) 
 
 Exemple : 
 
