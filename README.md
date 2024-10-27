@@ -11,6 +11,8 @@ Exemple :
 
 `<Button label="Button" body bg-blue30 square></Button>`
 
+https://wix.github.io/react-native-ui-lib/docs/getting-started/usage
+
 ## Configuration de l'environnement de développement sur Windows
 
 Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre système Windows :
@@ -91,28 +93,34 @@ Version recommandée : **SDK 51**
 1. Clonez le dépôt GitHub de l'application :
 
 ```
-git clone https://github.com/votrecompte/123Trinquons.git
+git clone https://github.com/IdoSoIam/expo-app-rnuilib.git
 ```
 
 2. Accédez au répertoire du projet :
 
 ```
-cd 123Trinquons
+cd expo-app-rnuilib
 ```
 
-3. Installez les dépendances du projet :
+3. Changer de branche en fonction de la config souhaitée :
+
+```
+git checkout with-typescript-without-exporouter
+```
+
+4. Installez les dépendances du projet :
 
 ```
 npx expo install
 ```
 
-4. Démarrez l'application en mode développement :
+5. Démarrez l'application en mode développement :
 
 ```
 bun run start
 ```
 
-5. Une fois l'application démarrée, vous pouvez la visualiser sur un émulateur ou un appareil physique en scannant le code QR avec l'application Expo Go (disponible sur l'App Store ou le Google Play Store).
+6. Une fois l'application démarrée, vous pouvez la visualiser sur un émulateur ou un appareil physique en scannant le code QR avec l'application Expo Go (disponible sur l'App Store ou le Google Play Store).
 
 
 
