@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-app-without-exporouter-rnuilib",
-    "slug": "expo-app-without-exporouter-rnuilib",
+    "name": "expo-app-rnuilib",
+    "slug": "expo-app-rnuilib",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
