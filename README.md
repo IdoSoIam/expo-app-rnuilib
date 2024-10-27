@@ -105,7 +105,7 @@ cd expo-app-rnuilib
 3. Changer de branche en fonction de la config souhaitée :
 
 ```
-git checkout with-typescript-without-exporouter
+git checkout without-typescript-without-exporouter
 ```
 
 4. Installez les dépendances du projet :
@@ -124,6 +124,6 @@ bun run start
 
 
 
-Félicitations ! Vous avez configuré avec succès l'environnement de développement pour l'application 123Trinquons sur Windows. Vous pouvez maintenant explorer et modifier le code source selon vos besoins.
+Félicitations ! Vous avez configuré avec succès l'environnement de développement pour creer votre application sur Windows. Vous pouvez maintenant explorer et modifier le code source selon vos besoins.
 
 N'hésitez pas à consulter la documentation officielle de React Native, Expo et des autres outils pour plus d'informations et de ressources.
