@@ -105,7 +105,7 @@ cd expo-app-rnuilib
 3. Changer de branche en fonction de la config souhaitée :
 
 ```
-git checkout with-typescript-without-exporouter
+git checkout without-typescript-without-exporouter
 ```
 
 4. Installez les dépendances du projet :
