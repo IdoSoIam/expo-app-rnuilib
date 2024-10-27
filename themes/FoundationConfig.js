@@ -1,7 +1,7 @@
 import {Colors, Typography, Spacings} from 'react-native-ui-lib';
 
 Colors.loadColors({
-  mainBackground: "#fff",
+  mainBackground: Colors.white,
   primaryColor: '#f4ce34',
   secondaryColor: '#81C3D7',
   textColor: '##221D23',
@@ -10,6 +10,7 @@ Colors.loadColors({
   warnColor: '##FF963C',
 
   buttonBackgroundPrimary: "#102a4c",
+  buttonTextPrimary: Colors.white,
 });
 
 Typography.loadTypographies({
@@ -24,4 +25,24 @@ Spacings.loadSpacings({
   page: 20,
   card: 12,
   gridGutter: 16
+});
+
+
+Colors.loadSchemes({
+  light: {
+    mainBackground: Colors.white,
+    bgColor: Colors.white,
+    textColor: Colors.grey10,
+    buttonBackgroundPrimary: "#102a4c",
+    buttonTextPrimary: Colors.white,
+    secondaryColor: '#81C3D7',
+  },
+  dark: {
+    mainBackground: Colors.black,
+    bgColor: Colors.black,
+    textColor: Colors.white,
+    buttonBackgroundPrimary: "#81C3D7",
+    buttonTextPrimary: Colors.black,
+    secondaryColor: '#102a4c',
+  }
 });

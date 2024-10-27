@@ -1,24 +1,25 @@
+import "@/themes/setup"
 import "@/themes/ComponentsConfig";
 import "@/themes/FoundationConfig";
 
+import { useDarkMode } from "@/themes/useTheme"; 
 import { StatusBar } from 'expo-status-bar';
-import { Card, Colors, Text, View } from 'react-native-ui-lib';
+import { Card, Text} from 'react-native-ui-lib';
 import MainContainer from '@/components/MainContainer';
 import { Button } from 'react-native-ui-lib';
 
-
 export default function App() {
+  const { invertedTheme, toggleDarkMode } = useDarkMode();
+
   return (
-    <MainContainer>
-      <StatusBar style="auto" />
+    <MainContainer mainBackground>
+      <StatusBar style={invertedTheme} />
 
-      <View>
-        <Card height={150} elevation={8} centerV padding-card marginB-s4 spread backgroundColor={Colors.secondaryColor}>
-          <Text center h4>Modifie tes composants globalement dans le dossier themes</Text>
+        <Card height={150} elevation={8} centerV padding-card marginB-s4 spread secondaryColor>
+          <Text textColor center h4>Modifie tes composants globalement dans le dossier themes</Text>
 
-          <Button text90 label="Je suis un bouton de react-native-ui-lib"/>
+          <Button text90 onPress={toggleDarkMode} label="Dark mode"/>
         </Card>
-      </View>
     </MainContainer>
   );
 }

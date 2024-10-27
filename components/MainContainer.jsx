@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Colors, View, ViewProps } from 'react-native-ui-lib';
 
 const MainContainer = ({ children, ...props }) => {
   return (
-    <View style={{position: "relative"}} {...props} padding-page flex center backgroundColor={Colors.mainBackground}>
+    <View style={{position: "relative"}} {...props} padding-page flex center>
       {children}
     </View>
   );

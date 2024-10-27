@@ -2,12 +2,17 @@ import {ThemeManager} from 'react-native-ui-lib';
 import {Colors, BorderRadiuses} from 'react-native-ui-lib';
 
 // with plain object
-ThemeManager.setComponentTheme('Card', {
-  borderRadius: 8
+ThemeManager.setComponentTheme('Card', (props, context) => {
+  const themeProps = props;
+
+  return themeProps;
 });
 
 ThemeManager.setComponentTheme('View', (props, context) => {
-  const themeProps = props;
+  const themeProps = {
+    backgroundColor: Colors.mainBackground,
+    color: Colors.textColor
+  };
 
   return themeProps;
 });
@@ -16,7 +21,7 @@ ThemeManager.setComponentTheme('View', (props, context) => {
 ThemeManager.setComponentTheme('Button', (props, context) => {
   const themeProps = {
     backgroundColor: Colors.buttonBackgroundPrimary,
-    color: Colors.white,
+    color: Colors.buttonTextPrimary,
     borderRadius: BorderRadiuses.br10,
   };
   
