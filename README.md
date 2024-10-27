@@ -11,6 +11,8 @@ Exemple :
 
 `<Button label="Button" body bg-blue30 square></Button>`
 
+https://wix.github.io/react-native-ui-lib/docs/getting-started/usage
+
 ## Configuration de l'environnement de développement sur Windows
 
 Avant de commencer, assurez-vous d'avoir installé les outils suivants sur votre système Windows :
