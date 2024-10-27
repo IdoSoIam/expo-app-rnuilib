@@ -16,7 +16,7 @@ export default function App() {
       <StatusBar style={invertedTheme} />
 
         <Card height={150} elevation={8} centerV padding-card marginB-s4 spread secondaryColor>
-          <Text textColor center h4>Modifie tes composants globalement dans le dossier themes</Text>
+          <Text textColor center body>Modifie tes composants globalement dans le dossier themes</Text>
 
           <Button text90 onPress={toggleDarkMode} label="Dark mode"/>
         </Card>
